@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kenneth Egbuchue — Creative Designer, Brand Manager and Print Specialist based in Lagos, Nigeria.">
+<title>Kenneth Egbuchue | Creative Designer</title>
+<style>
+:root {
+  --bg:#101010;
+  --panel:#191919;
+  --text:#f4f2eb;
+  --muted:#aaa9a2;
+  --accent:#d2ff5a;
+  --line:#303030;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial,Helvetica,sans-serif;
+}
+a { color:inherit; text-decoration:none; }
+a:focus-visible { outline:3px solid var(--accent); outline-offset:6px; }
+.wrap { max-width:1200px; margin:auto; padding:0 6%; }
+header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  padding:28px 0;
+  border-bottom:1px solid var(--line);
+}
+.logo { font-size:24px; font-weight:900; letter-spacing:-1px; }
+.logo span { color:var(--accent); }
+nav { display:flex; gap:24px; font-size:14px; }
+nav a:hover { color:var(--accent); }
+.hero { padding:100px 0 80px; }
+.eyebrow {
+  color:var(--accent);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+h1 {
+  font-size:clamp(58px,10vw,132px);
+  line-height:.95;
+  letter-spacing:-.065em;
+  margin:28px 0;
+  max-width:1000px;
+}
+h1 span { color:var(--accent); }
+.intro {
+  color:var(--muted);
+  font-size:clamp(17px,2vw,21px);
+  line-height:1.7;
+  max-width:610px;
+}
+.button {
+  display:inline-block;
+  background:var(--accent);
+  color:#101010;
+  padding:18px 26px;
+  margin-top:22px;
+  font-weight:700;
+  border-radius:3px;
+}
+.button:hover { background:#e2ff96; }
+.disciplines {
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px 30px;
+  padding:25px 0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  color:var(--muted);
+  font-size:13px;
+}
+section { padding:80px 0; }
+.section-heading {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+h2 {
+  font-size:clamp(32px,5vw,58px);
+  letter-spacing:-2px;
+  margin:0;
+}
+.number { font-size:13px; color:var(--accent); }
+.work-note {
+  background:var(--panel);
+  border:1px solid var(--line);
+  padding:clamp(28px,5vw,60px);
+}
+.work-note h3 { font-size:28px; margin:0 0 14px; }
+p { line-height:1.75; }
+.work-note p { color:var(--muted); max-width:600px; margin-bottom:0; }
+.about-grid {
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  gap:60px;
+}
+.about-copy { color:var(--muted); font-size:18px; }
+.about-copy p:first-child { margin-top:0; }
+.services {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  margin-top:36px;
+}
+.service {
+  border-top:1px solid var(--line);
+  padding-top:24px;
+}
+.service h3 { font-size:19px; }
+.service p { color:var(--muted); font-size:15px; }
+.contact {
+  border-top:1px solid var(--line);
+  padding-bottom:65px;
+}
+.contact h2 { font-size:clamp(45px,8vw,96px); line-height:1.05; }
+.contact p { color:var(--muted); }
+footer {
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:24px 0;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:12px;
+}
+@media(max-width:700px) {
+  header { align-items:flex-start; }
+  nav { gap:14px; font-size:12px; }
+  .hero { padding:70px 0 55px; }
+  section { padding:55px 0; }
+  .about-grid,.services { grid-template-columns:1fr; gap:24px; }
+  footer { flex-direction:column; gap:8px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#" aria-label="Kenneth Egbuchue home">KE<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Kenneth Egbuchue / Lagos, Nigeria</div>
+      <h1>Ideas made<br><span>impossible</span><br>to ignore.</h1>
+      <p class="intro">
+        Creative Designer, Brand Manager and Print Specialist.
+        I turn ideas into distinctive identities, compelling campaigns
+        and carefully crafted print.
+      </p>
+      <a class="button" href="#work">Explore my work ↗</a>
+    </div>
+
+    <div class="disciplines">
+      <span>BRAND IDENTITY</span>
+      <span>ADVERTISING & CAMPAIGNS</span>
+      <span>PRINT & PRODUCTION</span>
+      <span>MOTION & VISUAL STORYTELLING</span>
+    </div>
+
+    <section id="work">
+      <div class="section-heading">
+        <h2>Selected work.</h2>
+        <span class="number">01 / PORTFOLIO</span>
+      </div>
+      <div class="work-note">
+        <h3>A closer look is coming.</h3>
+        <p>
+          A selection of brand identities, advertising campaigns
+          and print projects is being prepared for this portfolio.
+          Check back soon to explore the work.
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-grid">
+        <div>
+          <div class="eyebrow">02 / ABOUT ME</div>
+          <h2 style="margin-top:20px">Creative vision.<br>Practical craft.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I’m Kenneth Egbuchue, a Lagos-based creative with over
+            11 years of experience across graphic design, brand
+            management and print production.
+          </p>
+          <p>
+            My work connects concept with execution—from the first
+            sketch and visual direction to the finished digital
+            asset or printed piece.
+          </p>
+          <p>
+            I work with Photoshop, Illustrator, InDesign and CorelDRAW,
+            bringing attention to typography, composition and
+            production detail.
+          </p>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service">
+          <h3>Brand identity</h3>
+          <p>Logos, visual systems and brand materials that give businesses a consistent presence.</p>
+        </div>
+        <div class="service">
+          <h3>Campaign design</h3>
+          <p>Advertising visuals, social content and launch assets built around a clear creative idea.</p>
+        </div>
+        <div class="service">
+          <h3>Print production</h3>
+          <p>Print-ready artwork, large-format graphics and branded materials with careful finishing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="eyebrow">03 / CONTACT</div>
+      <h2 style="margin-top:24px">Let’s create<br>something bold.</h2>
+      <p>Contact details will be added shortly.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© Kenneth Egbuchue. All rights reserved.</span>
+    <span>Creative Designer · Lagos, Nigeria</span>
+  </footer>
+</div>
+</body>
+</html>
